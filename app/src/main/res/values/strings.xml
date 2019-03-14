@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">SmartphoneCafe</string>
+
+    <!-- MainActivity -->
+    <string name="title_activity_main">Smartphone Cafe</string>
+    <string name="logout">Logout</string>
+    <string name="settings">Settings</string>
+    <string name="add_article">Add Article</string>
+    <string name="add_event">Add Event</string>
+
+    <!-- LoginActivity -->
+    <string name="title_activity_login">Sign in</string>
+    <string name="email">Email:</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="valid_email_warning">Please enter a valid email address</string>
+    <string name="valid_password_warning">Please enter a valid password</string>
+    <string name="login_error_message">Sign in error, please check the Email Address and the Password.</string>
+
+    <!-- SignUpActivity -->
+    <string name="title_activity_sign_up">Sign up</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_up_error_message">Authentication failed.</string>
+    <string name="email_verification_warning">Please check your email to confirm the registration.</string>
+    <string name="registration_error">Registration error.</string>
+
+    <!-- Notifications Topics -->
+    <string name="general_topic">/topics/general_topic</string>
+    <string name="news_article_topic">/topics/news_article_topic</string>
+    <string name="news_event_topic">/topics/new_event_topic</string>
+    <string name="helper_topic">/topics/helpers_topic</string>
+
+    <!-- ArticlesFragment -->
+    <string name="title_fragment_articles">Articles</string>
+    <string name="author">Author:</string>
+    <string name="publish_date">Publish Date:</string>
+
+    <!-- NextEventFragment -->
+    <string name="title_fragment_next_event">Next Event</string>
+
+    <!-- EventsHistoryFragment -->
+    <string name="title_fragment_events_history">Events History</string>
+    <string name="date">Date:</string>
+    <string name="topic">Topic:</string>
+    <string name="description">Description:</string>
+    <string name="organizer">Organizer:</string>
+    <string name="location">Location:</string>
+
+    <!-- HelpersListFragment -->
+    <string name="title_fragment_helpers_list">Helpers List</string>
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="phone">Phone:</string>
+
+    <!-- AddNewArticleFragment -->
+    <string name="article_title">Article Title</string>
+    <string name="article_short_description">Article short description</string>
+    <string name="article_text">Text</string>
+    <string name="article_author">Author</string>
+    <string name="article_publish_date">Publish Date</string>
+    <string name="publish">Publish</string>
+    <string name="select_image">Select an Image</string>
+</resources>

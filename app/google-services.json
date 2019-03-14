@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "745827403375",
+    "firebase_url": "https://smartphonecafe-c0c74.firebaseio.com",
+    "project_id": "smartphonecafe-c0c74",
+    "storage_bucket": "smartphonecafe-c0c74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745827403375:android:96e1e62482f20edb",
+        "android_client_info": {
+          "package_name": "com.kayali_developer.smartphonecafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745827403375-dni3pkrtorcjf1p7vmbptjo8a1mnihr9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kayali_developer.smartphonecafe",
+            "certificate_hash": "5b5333d20b231acea999080a41b5e17f8a419625"
+          }
+        },
+        {
+          "client_id": "745827403375-fojqr3o81acaq1328tthr24dhfb4uvhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBen9CHqZZ8E-Jci4Y_SIxcq2Je3sC16N8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745827403375-fojqr3o81acaq1328tthr24dhfb4uvhm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

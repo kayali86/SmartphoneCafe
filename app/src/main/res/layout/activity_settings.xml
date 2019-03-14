@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SettingsActivity">
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/tv_notification_settings"
+        android:text="Notification Settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Switch
+        android:hint="General Notification"
+        android:id="@+id/sw_general_notification"
+        app:layout_constraintTop_toBottomOf="@+id/tv_notification_settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Switch
+        android:hint="New Event Notification"
+        android:id="@+id/sw_new_event_notification"
+        app:layout_constraintTop_toBottomOf="@+id/sw_general_notification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Switch
+        android:hint="New Article Notification"
+        android:id="@+id/sw_new_article_notification"
+        app:layout_constraintTop_toBottomOf="@+id/sw_new_event_notification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Switch
+        android:visibility="gone"
+        android:hint="Helpers Notification"
+        android:id="@+id/sw_helpers_notification"
+        app:layout_constraintTop_toBottomOf="@+id/sw_new_article_notification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Delete my Account"
+        android:id="@+id/tv_delete_account"
+        app:layout_constraintEnd_toStartOf="@id/btn_delete_account"
+        app:layout_constraintBottom_toTopOf="@+id/btn_delete_account"
+        app:layout_constraintTop_toBottomOf="@+id/btn_delete_account"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_delete_account"
+        android:text="Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@+id/sw_helpers_notification" />
+</androidx.constraintlayout.widget.ConstraintLayout>
